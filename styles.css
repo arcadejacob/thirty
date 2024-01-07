@@ -2,13 +2,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-h1 {
   font-family: sans-serif;
+  font-weight: bold;
 }
 
 .square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 50px;
   height: 50px;
   border: 3px dashed black;
@@ -20,5 +21,4 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   max-width: 325px;
-
 }
